@@ -137,3 +137,10 @@ select {
     flex-direction: column;
   }
 }
+
+@media only screen and (max-width:357px) {
+  form input,
+  form button {
+    font-size: 1.2rem;
+  }
+}
